@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 ##defined function fo home means main url call or endpoint
 def home():
-    return "This is my 1st python code"
+    return "This is my updated python code"
 
 
 @app.route("/nirmal")
