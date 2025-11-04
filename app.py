@@ -8,14 +8,14 @@ app = Flask(__name__)
 
 ##defined function fo home means main url call or endpoint
 def home():
-    return "Application deployment successfully done for Production env//new Features added on 4th November"
+    return "Application deployment successfully//Application replicated//jai bala ji//Jai Khatushyam "
 
 
 @app.route("/nirmal")
 
 def nirmal():
 
-    return "This is nirmal call"
+    return "This is nirmal api request --"
 
 
 if __name__ == '__main__':
