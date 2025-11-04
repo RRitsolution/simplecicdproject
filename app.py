@@ -15,7 +15,7 @@ def home():
 
 def nirmal():
 
-    return "This is nirmal call"
+    return "This is nirmal api request"
 
 
 if __name__ == '__main__':
