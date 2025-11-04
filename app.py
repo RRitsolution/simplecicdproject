@@ -1,5 +1,5 @@
 ##import Flask class from flask package
-from Flask import Flask
+from flask import Flask
 
 ##Start flask nirmal insatnce 
 app = Flask(__name__)
@@ -19,4 +19,4 @@ def nirmal():
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0",port=5000)
+    App.run(host="0.0.0.0",port=5000)
