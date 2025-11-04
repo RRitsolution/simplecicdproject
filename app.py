@@ -1,8 +1,8 @@
 ##import Flask class from flask package
-from flask import Flask
+from Flask import Flask
 
 ##Start flask nirmal insatnce 
-app = Flask (__name__)
+app = Flask(__name__)
 ##  It is for defining endpoint
 @app.route("/")### mail root url
 
